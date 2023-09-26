@@ -12,7 +12,7 @@ public class Exo13 {
         System.out.print("Entrez les minutes: ");
         minutes = scan.nextInt();
 
-        while ((hour > 24 || hour < 0) || (minutes < 0 || minutes > 60)) {
+        while ((hour >= 24 || hour < 0) || (minutes < 0 || minutes > 60)) {
             System.out.println("Vous etes un clown. Recommencez");
             System.out.print("Entrez l'heure seulement: ");
             hour = scan.nextInt();
@@ -20,6 +20,11 @@ public class Exo13 {
             minutes = scan.nextInt();
         }
 
-        System.out.println(hour + ":" + (int)(minutes + 1));
+        if (minutes == 59)
+            System.out.println((int)(hour + 1) + ":00");
+        else if (minutes >=0 && minutes <=  9)
+            System.out.println(hour + ":0" + (int)(minutes + 1));
+        else
+            System.out.println(hour + ":" + (int)(minutes + 1));
     }
 }
