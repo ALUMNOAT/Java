@@ -1,3 +1,5 @@
+package Labo1.src;
+
 import java.util.Scanner;
  
 public class Example2 {
