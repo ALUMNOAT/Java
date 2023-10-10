@@ -25,7 +25,7 @@ public class TestRandom {
         int somme = x + y;
 
         ///////////////////////////////////////////////
-        ///Tour numéro 1
+        ///Tour numéro 1 (marche)
         //////////////////////////////////////////////
 
         System.out.println("tour " + turn);
@@ -63,7 +63,7 @@ public class TestRandom {
         }
 
         //////////////////////////////////////////////////
-        ///Tour numéro 2
+        ///Tour numéro 2 (marche)
         /////////////////////////////////////////////////
 
         turn++;
@@ -91,7 +91,7 @@ public class TestRandom {
         System.out.println("Votre but est " + goal + ".");
 
         //////////////////////////////////////////////////////////
-        ///Tour numéro ect
+        ///Tour numéro ect (marche pas)
         /////////////////////////////////////////////////////////
 
         while (coins - bet >= 0) {
