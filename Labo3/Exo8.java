@@ -26,7 +26,7 @@ public class Exo8 {
 
         if (firstnumber < lastnumber)
             System.out.print("Le premier est inférieur au dernier");
-        else if (i == 1 && firstnumber == lastnumber)
+        else if (i == 1 && firstnumber == lastnumber)  //d'abord cette condition car sinon le 1er = 2eme et ca m'arrange pas
             System.out.print("La suite est vide");
         else if (firstnumber == lastnumber)
             System.out.print("Le premier est égal au dernier");
