@@ -25,13 +25,13 @@ public class Exo9 {
         }
 
         if (firstnumber < lastnumber)
-            System.out.print("Le premier est inférieur au dernier");
+            System.out.print("Suite croissante");
         else if (i == 1 && firstnumber == lastnumber)
             System.out.print("La suite est vide");
         else if (firstnumber == lastnumber)
-            System.out.print("Le premier est égal au dernier");
+            System.out.print("Suite constatnte");
         else
-            System.out.print("Le premier est supérieur au dernier");
+            System.out.print("Suite décroissante");
 
     }
 }
