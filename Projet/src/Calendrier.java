@@ -24,10 +24,10 @@ public class Calendrier {
     }
 
     public static void main(String[] args) {
-        dayOfWeek();
-        daysInMonth();
-        isLeapYear();
-        printDay();
-        printCalendar();
+        dayOfWeek(3,5,2022);
+        daysInMonth(10,2022);
+        isLeapYear(2000);
+        printDay(10);
+        printCalendar(10,2000);
     }
 }
