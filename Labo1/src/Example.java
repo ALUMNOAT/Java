@@ -10,5 +10,7 @@ public class Example {
         b = scan.nextInt();
         somme = somme + b;
         System.out.println(somme / 2.0);
+
+        scan.close();
         }
-    }
+}

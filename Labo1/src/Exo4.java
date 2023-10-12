@@ -18,5 +18,7 @@ public class Exo4 {
         System.out.print(a);
         System.out.print(" ");
         System.out.println(b);
+
+        scan.close();
     }
 }

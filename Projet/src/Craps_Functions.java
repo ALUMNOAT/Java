@@ -1,7 +1,6 @@
 package Projet.src;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Craps_Functions {
 

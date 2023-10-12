@@ -20,5 +20,7 @@ public class Exo9 {
             System.out.println(b);
         else
             System.out.println(c);
+
+        scan.close();
     }
 }

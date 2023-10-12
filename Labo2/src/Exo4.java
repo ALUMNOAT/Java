@@ -15,5 +15,7 @@ public class Exo4 {
             System.out.println("Résultat = " + (int) (b-a));
         else
             System.out.println("Résultat = " + (int) (a-b));
+
+        scan.close();
     }
 }

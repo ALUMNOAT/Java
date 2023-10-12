@@ -13,5 +13,7 @@ public class Exo16 {
             System.out.println("L'année " + a + " est bissextile");
         else
             System.out.println("L'année " + a + " n'est pas bissextile");
+
+        scan.close();
     }
 }

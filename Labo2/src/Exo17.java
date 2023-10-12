@@ -19,5 +19,7 @@ public class Exo17 {
             System.out.println("La multiplication de ces 2 nombres sera un nombre positif");
         else
             System.out.println("La multiplication de ces 2 nombres sera un nombre négatif");
+
+        scan.close();
     }
 }

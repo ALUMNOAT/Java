@@ -22,5 +22,7 @@ class Exo5 {
         }
  
         System.out.print("La moyenne arithemique est: " + (somme / i));
+
+        scan.close();
     }
 }

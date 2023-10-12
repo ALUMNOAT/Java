@@ -17,5 +17,7 @@ public class Exo12 {
             System.out.println("Un nombre se répète: "+ a);
         else if (b == c)
             System.out.println("Un nombre se répète: "+ b);
+
+        scan.close();
     }
 }

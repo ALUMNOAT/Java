@@ -26,5 +26,7 @@ public class Exo11 {
             System.out.print(b + ", "+ a);
         else
             System.out.print(a + ", "+ b);
+
+        scan.close();
     }
 }

@@ -13,5 +13,7 @@ public class Exo6 {
             System.out.println("Le nombre possède une valeur de 1 à 10.");
         else
             System.out.println("Le nombre ne possède pas une valeur de 1 à 10.");
+
+        scan.close();
     }
 }

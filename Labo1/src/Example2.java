@@ -9,5 +9,7 @@ public class Example2 {
         int a = s.nextInt();
         System.out.print("Vous avez entrée la valeur: ");
         System.out.println(a);
+
+        s.close();
     }
 }

@@ -26,5 +26,7 @@ public class Exo13 {
             System.out.println(hour + ":0" + (int)(minutes + 1));
         else
             System.out.println(hour + ":" + (int)(minutes + 1));
+
+        scan.close();
     }
 }

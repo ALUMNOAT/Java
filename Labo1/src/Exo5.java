@@ -14,5 +14,7 @@ public class Exo5 {
         int somme = a + b;
         System.out.print("La somme de a et b est: ");
         System.out.println(somme);
+
+        scan.close();
     }
 }

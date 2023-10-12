@@ -24,5 +24,7 @@ public class Exo12 {
         }
  
         System.out.print("La durée de l'évènement était de " + DiffHeure + " heure(s) et " + DiffMinutes + " minute(s).");
+
+        scan.close();
     }
 }

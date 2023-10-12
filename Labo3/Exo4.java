@@ -15,5 +15,7 @@ class Exo4 {
         }
  
         System.out.print(i);
+
+        scan.close();
     }
 }

@@ -33,5 +33,6 @@ public class Exo9 {
         else
             System.out.print("Suite décroissante");
 
+        scan.close();
     }
 }

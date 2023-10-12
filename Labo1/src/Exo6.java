@@ -14,5 +14,7 @@ public class Exo6 {
         double moyenneArithm = (double) (a + b) / 2;
         System.out.print("La moyenne arithmétique de a et b est: ");
         System.out.println(moyenneArithm);
+
+        scan.close();
     }
 }

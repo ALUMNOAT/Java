@@ -33,5 +33,6 @@ public class Exo8 {
         else
             System.out.print("Le premier est supérieur au dernier");
 
+        scan.close();
     }
 }

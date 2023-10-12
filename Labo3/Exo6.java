@@ -14,5 +14,7 @@ class Exo6 {
             i++;
             System.out.print(i);
         }
+
+        scan.close();
     }
 }

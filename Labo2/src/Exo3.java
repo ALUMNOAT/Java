@@ -13,5 +13,7 @@ public class Exo3 {
             System.out.println(a);
         else
             System.out.println(-a);
+
+        scan.close();
     }
 }

@@ -27,5 +27,6 @@ class Exo3 {
         
         System.out.println("La moyenne algebrique est " + (somme / n));
         
+        scan.close();
     }
 }

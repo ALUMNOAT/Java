@@ -13,5 +13,7 @@ public class Exo13 {
            somme += nombre;
         }  
         System.out.println("La somme de ces 4 nombres est " + somme );
+
+        scan.close();
     }
 }

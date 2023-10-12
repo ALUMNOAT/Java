@@ -17,5 +17,7 @@ public class Exo5 {
             System.out.println("“Les deux nombres sont égaux”");
         else
             System.out.println("“Le premier est plus petit que le deuxième”");
+
+        scan.close();
     }
 }

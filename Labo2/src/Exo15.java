@@ -16,5 +16,7 @@ public class Exo15 {
 
         if (a <= 0)
             System.out.println("a est inférieur ou égal à 0");
+
+        scan.close();
     }
 }

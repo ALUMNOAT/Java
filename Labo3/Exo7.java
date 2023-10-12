@@ -21,5 +21,7 @@ public class Exo7 {
         }
 
         System.out.print("Le dernier nombre est: " + lastnumber);    //??????????
+
+        scan.close();
     }
 }
