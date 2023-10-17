@@ -1,20 +1,19 @@
-package Labo3;
+package Labo3.src;
 
 import java.util.Scanner;
- 
-class Exo4 {
+
+class Exo6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int nombre, i = 0, somme = 0;
+        int i = 0, nombre;
+        
         System.out.print("Entrez un nombre: ");
         nombre = scan.nextInt();
         
-        while ((somme + i) < nombre) {
+        while ((i+1)*(i+1) < nombre) {
             i++;
-            somme += i;
+            System.out.print(i);
         }
- 
-        System.out.print(i);
 
         scan.close();
     }

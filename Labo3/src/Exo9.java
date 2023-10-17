@@ -1,4 +1,4 @@
-package Labo3;
+package Labo3.src;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Exo9 {
         else if (i == 1 && firstnumber == lastnumber)
             System.out.print("La suite est vide");
         else if (firstnumber == lastnumber)
-            System.out.print("Suite constatnte");
+            System.out.print("Suite constante");
         else
             System.out.print("Suite décroissante");
 
