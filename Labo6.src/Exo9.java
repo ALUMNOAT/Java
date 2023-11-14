@@ -15,7 +15,7 @@ public class Exo9 {
             System.out.print("Entrez la serie: ");
             y = scan.nextInt();
             index++;
-        } while(y!=x || y == -1);
+        } while (y != x && y != -1);
 
         System.out.println(index);
 
