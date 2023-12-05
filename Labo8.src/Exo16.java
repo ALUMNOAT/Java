@@ -21,7 +21,7 @@ public class Exo16 {
 
         while (it.hasNext()) {
             number2 = it.next();
-            System.out.println(number2);
+            //System.out.println(number2);
             
             if (number1 < 0 && number2 < 0){
                 int reverse1 = -number1;
