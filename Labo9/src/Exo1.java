@@ -1,3 +1,5 @@
+package Labo9.src;
+
 import seqint.SeqInt;
 import seqint.SeqIntIterator;
 
